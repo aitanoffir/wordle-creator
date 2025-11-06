@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wordle Creator</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Wordle Creator</h1>
+
+        <!-- Mode Selection -->
+        <div id="mode-selection" class="mode-selection">
+            <button id="create-btn" class="mode-btn">Create New Word</button>
+            <button id="play-btn" class="mode-btn">Play Wordle</button>
+        </div>
+
+        <!-- Create Mode -->
+        <div id="create-mode" class="hidden">
+            <h2>Create Your Wordle</h2>
+            <div class="create-form">
+                <div class="form-group">
+                    <label for="word-input">Enter Word (4-7 letters):</label>
+                    <input type="text" id="word-input" maxlength="7" placeholder="Enter your word">
+                    <span id="word-error" class="error-message"></span>
+                </div>
+                <div class="form-group">
+                    <label for="hint-input">Enter Hint:</label>
+                    <input type="text" id="hint-input" placeholder="Give a hint about the word">
+                    <span id="hint-error" class="error-message"></span>
+                </div>
+                <button id="save-word-btn" class="action-btn">Save Word</button>
+                <button id="back-to-menu-btn" class="secondary-btn">Back to Menu</button>
+            </div>
+        </div>
+
+        <!-- Play Mode -->
+        <div id="play-mode" class="hidden">
+            <!-- Word Selection -->
+            <div id="word-selection" class="word-selection">
+                <h3>Select a word to play:</h3>
+                <div id="words-list" class="words-list"></div>
+                <button id="back-to-menu-play-btn" class="secondary-btn">Back to Menu</button>
+            </div>
+
+            <!-- Game Area -->
+            <div id="game-area" class="hidden">
+                <div id="hint-display" class="hint-display"></div>
+                <div id="game-board" class="game-board"></div>
+                <div id="keyboard" class="keyboard"></div>
+                <div id="game-message" class="game-message"></div>
+                <button id="back-to-words-btn" class="secondary-btn">Back to Word List</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
