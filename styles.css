@@ -28,21 +28,21 @@ h1 {
     text-align: center;
     color: #000000;
     margin-top: 20px;
-    margin-bottom: 80px;
-    font-size: 4em;
+    margin-bottom: 40px;
+    font-size: 2.5em;
 }
 
 h2 {
     text-align: center;
     color: #000000;
-    margin-bottom: 50px;
-    font-size: 3em;
+    margin-bottom: 30px;
+    font-size: 2em;
 }
 
 h3 {
     color: #000000;
     margin-bottom: 10px;
-    font-size: 2em;
+    font-size: 1.4em;
 }
 
 .hidden {
@@ -53,22 +53,22 @@ h3 {
 .mode-selection {
     display: flex;
     flex-direction: column;
-    gap: 40px;
+    gap: 25px;
     align-items: center;
     width: 100%;
-    max-width: 900px;
+    max-width: 500px;
 }
 
 .mode-btn {
     width: 100%;
-    max-width: 500px;
-    padding: 35px 50px;
-    font-size: 2em;
+    max-width: 300px;
+    padding: 20px 30px;
+    font-size: 1.3em;
     font-weight: bold;
     color: #EFECE3;
     background: #4A70A9;
     border: none;
-    border-radius: 16px;
+    border-radius: 12px;
     cursor: pointer;
     transition: transform 0.2s, box-shadow 0.2s;
 }
@@ -86,32 +86,32 @@ h3 {
 /* Create Mode */
 #create-mode {
     width: 100%;
-    max-width: 900px;
+    max-width: 500px;
 }
 
 .create-form {
     display: flex;
     flex-direction: column;
-    gap: 40px;
+    gap: 25px;
 }
 
 .form-group {
     display: flex;
     flex-direction: column;
-    gap: 12px;
+    gap: 8px;
 }
 
 .form-group label {
     font-weight: bold;
     color: #000000;
-    font-size: 1.6em;
+    font-size: 1.1em;
 }
 
 .form-group input {
-    padding: 20px 25px;
-    font-size: 1.4em;
-    border: 3px solid #8FABD4;
-    border-radius: 10px;
+    padding: 12px 16px;
+    font-size: 1em;
+    border: 2px solid #8FABD4;
+    border-radius: 8px;
     transition: border-color 0.3s;
     background: white;
 }
@@ -123,18 +123,18 @@ h3 {
 
 .error-message {
     color: #e74c3c;
-    font-size: 1.1em;
-    min-height: 25px;
+    font-size: 0.9em;
+    min-height: 20px;
 }
 
 .action-btn {
-    padding: 25px 45px;
-    font-size: 1.6em;
+    padding: 15px 25px;
+    font-size: 1.1em;
     font-weight: bold;
     color: #EFECE3;
     background: #4A70A9;
     border: none;
-    border-radius: 12px;
+    border-radius: 8px;
     cursor: pointer;
     transition: transform 0.2s, box-shadow 0.2s;
 }
@@ -150,12 +150,12 @@ h3 {
 }
 
 .secondary-btn {
-    padding: 25px 45px;
-    font-size: 1.6em;
+    padding: 12px 24px;
+    font-size: 1em;
     color: #4A70A9;
     background: white;
     border: 2px solid #4A70A9;
-    border-radius: 10px;
+    border-radius: 8px;
     cursor: pointer;
     transition: all 0.2s;
 }
@@ -168,7 +168,7 @@ h3 {
 /* Play Mode */
 #play-mode {
     width: 100%;
-    max-width: 900px;
+    max-width: 600px;
 }
 
 .word-selection {
@@ -196,11 +196,11 @@ h3 {
 .word-card {
     display: flex;
     align-items: center;
-    gap: 20px;
-    padding: 25px;
+    gap: 15px;
+    padding: 15px;
     background: white;
-    border-radius: 12px;
-    border: 3px solid #8FABD4;
+    border-radius: 10px;
+    border: 2px solid #8FABD4;
     transition: border-color 0.3s;
 }
 
@@ -218,24 +218,24 @@ h3 {
 .word-length {
     font-weight: bold;
     color: #4A70A9;
-    font-size: 1.3em;
+    font-size: 1em;
 }
 
 .word-hint {
     color: #000000;
     font-style: italic;
-    font-size: 1.2em;
+    font-size: 0.95em;
 }
 
 .play-word-btn {
-    padding: 16px 30px;
+    padding: 10px 20px;
     background: #4A70A9;
     color: #EFECE3;
     border: none;
-    border-radius: 8px;
+    border-radius: 6px;
     cursor: pointer;
     font-weight: bold;
-    font-size: 1.3em;
+    font-size: 1em;
     transition: all 0.2s;
 }
 
@@ -245,14 +245,14 @@ h3 {
 }
 
 .delete-word-btn {
-    padding: 16px 30px;
+    padding: 10px 20px;
     background: #000000;
     color: #EFECE3;
     border: none;
-    border-radius: 8px;
+    border-radius: 6px;
     cursor: pointer;
     font-weight: bold;
-    font-size: 1.3em;
+    font-size: 1em;
     transition: all 0.2s;
 }
 
@@ -265,21 +265,21 @@ h3 {
 #game-area {
     display: flex;
     flex-direction: column;
-    gap: 20px;
+    gap: 5px;
     width: 100%;
-    max-width: 900px;
+    max-width: 600px;
     align-items: center;
 }
 
 .hint-display {
-    padding: 20px;
+    padding: 12px;
     background: #8FABD4;
     border-left: 4px solid #4A70A9;
     border-radius: 6px;
     color: #000000;
-    font-size: 1.2em;
+    font-size: 0.95em;
     width: 100%;
-    max-width: 600px;
+    max-width: 500px;
 }
 
 .hint-display strong {
@@ -290,25 +290,25 @@ h3 {
 .game-board {
     display: flex;
     flex-direction: column;
-    gap: 12px;
+    gap: 6px;
     align-items: center;
-    margin: 30px 0;
+    margin: 10px 0;
 }
 
 .board-row {
     display: grid;
     grid-template-columns: repeat(var(--word-length, 5), 1fr);
-    gap: 12px;
+    gap: 6px;
 }
 
 .tile {
-    width: 90px;
-    height: 90px;
-    border: 3px solid #8FABD4;
+    width: 52px;
+    height: 52px;
+    border: 2px solid #8FABD4;
     display: flex;
     align-items: center;
     justify-content: center;
-    font-size: 3em;
+    font-size: 1.8em;
     font-weight: bold;
     text-transform: uppercase;
     background: white;
@@ -359,23 +359,24 @@ h3 {
 .keyboard {
     display: flex;
     flex-direction: column;
-    gap: 15px;
+    gap: 6px;
+    margin-top: 10px;
 }
 
 .keyboard-row {
     display: flex;
-    gap: 12px;
+    gap: 5px;
     justify-content: center;
 }
 
 .key {
-    padding: 28px 22px;
-    min-width: 70px;
+    padding: 14px 10px;
+    min-width: 38px;
     background: #EFECE3;
     border: 2px solid #8FABD4;
-    border-radius: 10px;
+    border-radius: 5px;
     font-weight: bold;
-    font-size: 1.6em;
+    font-size: 0.9em;
     cursor: pointer;
     transition: all 0.2s;
     color: #000000;
@@ -387,8 +388,8 @@ h3 {
 }
 
 .key.key-large {
-    min-width: 100px;
-    font-size: 1.4em;
+    min-width: 58px;
+    font-size: 0.8em;
 }
 
 .key.correct {
@@ -412,11 +413,11 @@ h3 {
 /* Game Message */
 .game-message {
     text-align: center;
-    padding: 15px;
+    padding: 10px;
     border-radius: 8px;
     font-weight: bold;
-    font-size: 1.1em;
-    min-height: 50px;
+    font-size: 1em;
+    min-height: 40px;
     display: flex;
     align-items: center;
     justify-content: center;
